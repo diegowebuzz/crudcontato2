@@ -1,0 +1,2 @@
+[2021-01-08 15:21:25.121] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/var/www2/crud/.vscode'
+[2021-01-08 15:27:37.468] [renderer1] [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/var/www2/crud/resources/views/editarContato.blade.php' (Error: File Modified Since) file:///var/www2/crud/resources/views/editarContato.blade.php

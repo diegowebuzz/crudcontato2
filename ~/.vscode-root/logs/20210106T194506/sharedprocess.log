@@ -1,0 +1,9 @@
+[2021-01-06 19:45:11.299] [sharedprocess] [info] main {"machineId":"b3108784e2adc6748df7d6eac4c8d795fcf80e59877dee5bf76682e427c00214","windowId":2}
+[2021-01-06 19:45:11.656] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/var/www2/crud/~/.vscode-root/User/snippets'
+[2021-01-06 19:45:51.440] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-01-07 06:44:16.714] [sharedprocess] [info] Installing extension: bmewburn.vscode-intelephense-client
+[2021-01-07 06:44:23.780] [sharedprocess] [info] Downloaded extension: bmewburn.vscode-intelephense-client undefined
+[2021-01-07 06:44:29.299] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.bmewburn.vscode-intelephense-client-1.6.1: bmewburn.vscode-intelephense-client
+[2021-01-07 06:44:29.396] [sharedprocess] [info] Renamed to /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1
+[2021-01-07 06:44:29.416] [sharedprocess] [info] Installation completed. bmewburn.vscode-intelephense-client
+[2021-01-07 06:44:31.444] [sharedprocess] [info] Extensions installed successfully: bmewburn.vscode-intelephense-client

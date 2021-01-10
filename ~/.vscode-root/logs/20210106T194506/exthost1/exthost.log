@@ -1,0 +1,74 @@
+[2021-01-06 19:45:11.907] [exthost] [info] extension host started
+[2021-01-06 19:45:12.089] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-01-06 19:45:12.090] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-01-06 19:45:12.174] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-01-06 19:45:12.175] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-01-06 19:45:12.182] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-01-06 19:45:12.182] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-01-06 19:45:12.253] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-01-06 19:45:12.253] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/git/dist/main
+[2021-01-06 19:45:12.454] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-01-06 19:45:12.454] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-01-06 19:45:12.465] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-01-06 19:45:12.465] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2021-01-06 19:45:12.468] [exthost] [info] ExtensionService#_doActivateExtension humy2833.ftp-simple {"startup":true,"extensionId":{"value":"humy2833.ftp-simple","_lower":"humy2833.ftp-simple"},"activationEvent":"*"}
+[2021-01-06 19:45:12.469] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/humy2833.ftp-simple-0.7.5/extension
+[2021-01-06 19:45:17.579] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-01-06 19:45:17.579] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-01-06 19:45:17.605] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-01-06 19:45:17.605] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-01-06 19:45:17.922] [exthost] [info] eager extensions activated
+[2021-01-06 19:45:18.005] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-01-06 19:45:18.005] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-01-06 19:45:40.497] [exthost] [info] extension host started
+[2021-01-06 19:45:40.573] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-01-06 19:45:40.574] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-01-06 19:45:40.593] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-01-06 19:45:40.593] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-01-06 19:45:40.597] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-01-06 19:45:40.597] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-01-06 19:45:40.633] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-01-06 19:45:40.633] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/git/dist/main
+[2021-01-06 19:45:40.658] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-01-06 19:45:40.658] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-01-06 19:45:40.662] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-01-06 19:45:40.662] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2021-01-06 19:45:40.664] [exthost] [info] ExtensionService#_doActivateExtension humy2833.ftp-simple {"startup":true,"extensionId":{"value":"humy2833.ftp-simple","_lower":"humy2833.ftp-simple"},"activationEvent":"*"}
+[2021-01-06 19:45:40.664] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/humy2833.ftp-simple-0.7.5/extension
+[2021-01-06 19:45:41.195] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-01-06 19:45:41.195] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-01-06 19:45:41.843] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-01-06 19:45:41.843] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-01-06 19:45:41.879] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-01-06 19:45:41.879] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-01-06 19:45:42.314] [exthost] [info] eager extensions activated
+[2021-01-06 19:45:42.638] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-01-06 19:45:42.639] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-01-06 19:46:24.320] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-01-06 19:46:24.320] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-01-07 06:44:33.400] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2021-01-07 06:44:33.400] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension
+[2021-01-07 08:13:53.736] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2021-01-07 08:13:53.861] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-01-07 08:13:54.241] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2021-01-07 08:13:54.241] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/52/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-01-07 09:24:06.174] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-01-07 09:24:06.655] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:128171)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:88386
+[2021-01-07 09:52:09.474] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-01-07 09:52:09.475] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:128171)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:88386
+[2021-01-07 11:41:20.568] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-01-07 11:41:20.598] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:128171)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:88386
+[2021-01-07 13:06:47.476] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-01-07 13:06:47.561] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:128171)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.6.1/lib/extension.js:1:88386

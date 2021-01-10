@@ -1,0 +1,123 @@
+file:///var/www2/crud/resources/views/editarContato.blade.php {"mtime":1610045779243,"ctime":1610025936734,"size":2682,"etag":"369m3kl1q2og","orphaned":false}
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+
+<div class="row">
+
+<div class="col-md-4"></div>
+<div class="col-md-4">
+
+<input id="nome" name="name">
+
+Telefones
+<div id="telefones">
+</div>
+
+celulares
+<div id="celulares">
+</div>
+
+
+EMails
+<div id="emails">
+</div>
+
+<div>
+<button class="btn btn-warning">  <i class="far fa-save"></i> salvar alterações </button>
+</div>
+
+</div>
+<div class="col-md-4"></div>
+
+
+</div>
+
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js" integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w==" crossorigin="anonymous"></script>
+
+
+<script>
+
+let searchParams = new URLSearchParams(window.location.search)
+    let param = searchParams.get('id')
+
+    alert(param);
+
+
+    $(document).ready(function() {
+
+$.ajax({
+
+    url: "http://127.0.0.1:8000/api/contatos/" + param,
+    method: 'GET',
+    success: function(data){
+        
+        console.log(data);
+
+        $('#nome').val(data.nome);
+
+        for(let i = 0; i < data.telefones.length; i++ ){
+
+            $('#telefones').append(`<div><input value="${data.telefones[i].numero}" class="telefoneFixo" ></div>`)
+
+        }
+
+        for(let i = 0; i < data.celulares.length; i++ ){
+
+          $('#celulares').append(`<div>${data.celulares[i].numero} class="celular" </div>`)
+
+         }
+
+         for(let i = 0; i < data.emails.length; i++ ){
+
+$('#emails').append(`<div><input value="${data.emails[i].endereco} class="celular"></div>`)
+
+}
+         
+        
+
+    }
+
+});
+});
+
+
+function salvarAlteracoes(){
+
+     let nome = $('#nome').val();
+
+
+    $.ajax({
+        url: "http://127.0.0.1:8000/api/contatos/" + param,
+        method: 'PUT',
+        data: { nome: nome},
+    success: function(data){
+        
+        
+    }
+    });
+
+
+</script>
+
+  
+
+</body>
+</html>
